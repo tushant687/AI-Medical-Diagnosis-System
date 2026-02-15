@@ -1,9 +1,4 @@
-Perfect 🔥
-Yeh raha **fully professional, detailed, placement-ready README.md** tumhare AI Medical Diagnosis System ke liye.
 
-Isko direct copy-paste karke GitHub ke README.md me daal do 👇
-
----
 
 # 🏥 AI Medical Diagnosis System
 
