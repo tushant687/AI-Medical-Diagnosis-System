@@ -224,6 +224,18 @@ The app will open in your browser.
 
 ---
 
+# 📷 Dashboard Preview
+ <img width="1816" height="886" alt="Screenshot 2026-02-15 171917" src="https://github.com/user-attachments/assets/4b42a08f-b2ad-4ffe-b7a7-0af47dd8637e" />
+ 
+<img width="1887" height="747" alt="Screenshot 2026-02-15 171934" src="https://github.com/user-attachments/assets/ad371952-1392-4716-a794-4f60c3232ea7" />
+<img width="1431" height="811" alt="Screenshot 2026-02-15 171949" src="https://github.com/user-attachments/assets/9b43e855-20ba-4522-8f15-6b2cb9bda8a3" />
+<img width="1859" height="827" alt="Screenshot 2026-02-15 172011" src="https://github.com/user-attachments/assets/6acc9903-8292-430c-9db3-73c6f17d7659" />
+<img width="1492" height="835" alt="Screenshot 2026-02-15 172050" src="https://github.com/user-attachments/assets/28e290ed-840a-4181-9921-1dcc6dc1b071" />
+<img width="1439" height="810" alt="Screenshot 2026-02-15 172110" src="https://github.com/user-attachments/assets/0ae098f6-5ebe-42ac-8fb9-f8c413d94e4f" />
+
+
+---
+
 ## ⚠ Important Disclaimer
 
 This application is for **educational and informational purposes only**.
