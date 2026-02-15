@@ -178,7 +178,7 @@ AI-Medical-Diagnosis-System/
 ### Step 1: Clone Repository
 
 ```
-git clone https://github.com/yourusername/AI-Medical-Diagnosis-System.git
+https://github.com/tushant687/AI-Medical-Diagnosis-System/tree/main
 cd AI-Medical-Diagnosis-System
 ```
 
