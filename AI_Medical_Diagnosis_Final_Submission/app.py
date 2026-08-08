@@ -1569,10 +1569,7 @@ if page == "About":
     st.markdown(
         """
 **Developed by:**  
-- Garima  (2202920100041)
 - Tushant Kumar  (2202920100116)
-- Mandeep Kaur  (2202920100059)
-- Dipanshu Sharma  (2102920100037)
 
 **Under Supervision:** Ms. Srishti Agarwal (Assistant Professor)
 
