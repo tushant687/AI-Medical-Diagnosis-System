@@ -8,6 +8,11 @@ An AI-powered healthcare web application built using **Machine Learning + Stream
 
 ---
 
+## 🚀 Live Demo
+
+👉 **[Open AI Medical Diagnosis System](https://ai-medical-diagnosis-tushant.streamlit.app/)**
+
+
 ## 📌 Project Overview
 
 The **AI Medical Diagnosis System** is an interactive web-based platform designed to assist users in predicting various medical conditions using trained machine learning models.
