@@ -706,10 +706,18 @@ def show_nearby_doctors(disease_key):
 
     col1, col2 = st.columns(2)
     with col1:
-        city = st.text_input("🏙️ Enter City", placeholder="e.g. Delhi")
-    with col2:
-        state = st.text_input("🌍 Enter State / Country", placeholder="e.g. India")
+    city = st.text_input(
+        "🏙️ Enter City",
+        placeholder="e.g. Delhi",
+        key=f"city_input_{disease}"
+    )
 
+with col2:
+    state = st.text_input(
+        "🌍 Enter State / Country",
+        placeholder="e.g. India",
+        key=f"state_input_{disease}"
+    )
     col3, col4 = st.columns(2)
     with col3:
         if st.button("📍 Auto Detect Location (Demo)", key=f"{disease_key}_auto"):
