@@ -712,7 +712,7 @@ def show_nearby_doctors(disease_key):
         key=f"city_input_{disease}"
     )
 
-with col2:
+    with col2:
     state = st.text_input(
         "🌍 Enter State / Country",
         placeholder="e.g. India",
