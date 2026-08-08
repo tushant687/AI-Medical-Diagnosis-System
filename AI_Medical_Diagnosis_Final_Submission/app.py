@@ -690,6 +690,7 @@ def show_health_tips(disease):
 # ---------------------------
 # Nearby Doctors & Hospitals (Google Maps)
 # ---------------------------
+
 def show_nearby_doctors(disease_key):
 
     SPECIALIST_MAP = {
@@ -705,29 +706,38 @@ def show_nearby_doctors(disease_key):
     st.markdown("### 📍 Search Nearby Doctors & Hospitals")
 
     col1, col2 = st.columns(2)
+
     with col1:
-    city = st.text_input(
-        "🏙️ Enter City",
-        placeholder="e.g. Delhi",
-        key=f"city_input_{disease}"
-    )
+        city = st.text_input(
+            "🏙️ Enter City",
+            placeholder="e.g. Delhi",
+            key=f"city_input_{disease_key}"
+        )
 
     with col2:
-    state = st.text_input(
-        "🌍 Enter State / Country",
-        placeholder="e.g. India",
-        key=f"state_input_{disease}"
-    )
+        state = st.text_input(
+            "🌍 Enter State / Country",
+            placeholder="e.g. India",
+            key=f"state_input_{disease_key}"
+        )
+
     col3, col4 = st.columns(2)
+
     with col3:
-        if st.button("📍 Auto Detect Location (Demo)", key=f"{disease_key}_auto"):
+        if st.button(
+            "📍 Auto Detect Location (Demo)",
+            key=f"{disease_key}_auto"
+        ):
             city, state = "Delhi", "India"
             st.success("Location detected: Delhi, India")
+
     with col4:
-        if st.button("🔄 Clear Location", key=f"{disease_key}_clear"):
+        if st.button(
+            "🔄 Clear Location",
+            key=f"{disease_key}_clear"
+        ):
             city, state = "", ""
             st.success("Location cleared.")
-
     # ---------------------------
     # Distance Filter
     # ---------------------------
