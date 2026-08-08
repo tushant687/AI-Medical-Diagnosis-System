@@ -723,21 +723,54 @@ def show_nearby_doctors(disease_key):
 
     col3, col4 = st.columns(2)
 
+    # 🔍 Search button
     with col3:
         if st.button(
-            "📍 Auto Detect Location (Demo)",
-            key=f"{disease_key}_auto"
+            "🔍 Search Nearby",
+            key=f"{disease_key}_search"
         ):
-            city, state = "Delhi", "India"
-            st.success("Location detected: Delhi, India")
 
+            if city.strip() or state.strip():
+
+                location = f"{city.strip()}, {state.strip()}".strip(", ")
+
+                # Google Maps search
+                google_maps_url = (
+                    "https://www.google.com/maps/search/"
+                    f"{specialist}+near+"
+                    f"{location.replace(' ', '+')}"
+                )
+
+                st.success(
+                    f"Searching {specialist}s near {location}"
+                )
+
+                st.markdown(
+                    f"### 🏥 Nearby {specialist.title()}s"
+                )
+
+                st.markdown(
+                    f"📍 **Location:** {location}"
+                )
+
+                st.markdown(
+                    f"[🔎 Open in Google Maps]({google_maps_url})"
+                )
+
+            else:
+                st.warning(
+                    "⚠️ Please enter a city or country."
+                )
+
+    # 🔄 Clear button
     with col4:
         if st.button(
             "🔄 Clear Location",
             key=f"{disease_key}_clear"
         ):
-            city, state = "", ""
-            st.success("Location cleared.")
+            st.info(
+                "Please clear the location fields and enter a new location."
+            )
     # ---------------------------
     # Distance Filter
     # ---------------------------
